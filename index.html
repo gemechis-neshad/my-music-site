@@ -1,0 +1,223 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <title>Video Compilation Page</title>
+      <!-- Corrected Google Font Link -->
+      <link href="https://googleapis.com" rel="stylesheet">
+
+      <style>
+          /* 1. Dark Mode Page Styling */
+          body {
+              font-family: 'Montserrat', sans-serif;
+              background-color: #121212; /* Added background back */
+              color: #e0e0e0; /* Added text color back */
+              margin: 0;
+              padding: 0; /* Padding moved to main for nav overlap */
+              line-height: 1.6;
+          }
+
+          /* 2. Main Container */
+          main {
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 40px 20px;
+              text-align: center;
+          }
+
+          /* 3. Navigation Bar Styling */
+          nav {
+              background-color: #1e1e1e;
+              padding: 15px;
+              position: sticky;
+              top: 0;
+              z-index: 100;
+              box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+          }
+
+          nav ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              text-align: center;
+          }
+
+          nav li {
+              display: inline;
+              margin: 0 15px;
+          }
+
+          nav a {
+              color: #e0e0e0;
+              text-decoration: none;
+              font-weight: 600;
+              font-size: 1.1rem;
+              transition: color 0.3s;
+          }
+
+          nav a:hover {
+              color: #bb86fc;
+          }
+
+          /* 4. Dark "Card" Styling */
+          section {
+              background-color: #1e1e1e;
+              border: 1px solid #333;
+              border-radius: 12px;
+              padding: 25px;
+              margin-bottom: 30px;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+              transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+          }
+
+          section:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 20px rgba(187, 134, 252, 0.15);
+              border-color: #bb86fc;
+          }
+
+          /* 5. Headings with Accent Colors */
+          h1 {
+              color: #ffffff;
+              font-size: 2.5rem;
+              margin-bottom: 20px;
+              letter-spacing: 1px;
+          }
+
+          h2 {
+              color: #bb86fc;
+              margin-top: 0;
+              font-weight: 600;
+          }
+
+          /* 6. Text Styling */
+          p {
+              color: #b0b3b8;
+          }
+
+          /* 7. Responsive Video Player */
+          iframe {
+              width: 100%;
+              max-width: 500px;
+              height: 300px;
+              border-radius: 8px;
+              border: none;
+              box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+          }
+          /* Contact Form Styles */
+  form {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      max-width: 500px;
+      margin: 0 auto; /* Centers the form */
+  }
+
+  label {
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: #e0e0e0;
+  }
+
+  input, textarea {
+      background-color: #2c2c2c;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 15px;
+      color: #fff;
+      font-family: inherit;
+  }
+
+  input:focus, textarea:focus {
+      outline: none;
+      border-color: #bb86fc; /* Purple focus glow */
+      box-shadow: 0 0 5px rgba(187, 134, 252, 0.5);
+  }
+
+  button {
+      background-color: #bb86fc;
+      color: #000;
+      font-weight: bold;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  button:hover {
+      background-color: #9a67ea; /* Darker purple on hover */
+  }
+
+
+          /* 8. Footer Styling */
+          footer {
+              text-align: center;
+              margin-top: 50px;
+              font-size: 0.85rem;
+              color: #555;
+              border-top: 1px solid #333;
+              padding: 20px 0;
+          }
+      </style>
+  </head>
+
+  <body>
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#music">Music</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+
+      <main id="music">
+          <h1>Some of Gemechis' Favorite Music</h1>
+          <p>Music has a unique way of capturing emotions and memories that words alone sometimes can't reach.</p>
+        
+          <section>
+              <h2>Justin Bieber - Walking Away</h2>
+              <p>This song is incredibly special to me because it reminds me of a time when I was learning how to let go.</p>
+              <iframe title="Justin Bieber - WALKING AWAY (Audio)" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" src="https://www.youtube.com/embed/sbF2O_LOyyQ"></iframe>
+          </section>
+
+          <section>
+              <h2>Ed Sheeran & Justin Bieber - I Don't Care</h2>
+              <p>This track is my ultimate anthem for social anxiety and finding comfort in the right person.</p>
+              <iframe title="Ed Sheeran & Justin Bieber - I Don't Care [Official Music Video]" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" src="https://www.youtube.com/embed/y83x7MgzWOA"></iframe>
+          </section>
+
+          <section>
+              <h2>Ed Sheeran - Perfect</h2>
+              <p>To me, this is the most beautiful love song ever written.</p>
+              <iframe title="Ed Sheeran - Perfect (Official Music Video)" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" src="https://www.youtube.com/embed/2Vv-BfVoq4g"></iframe>
+          </section>
+       <!-- Contact Section -->
+  <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>Have a song recommendation? Send me a message!</p>
+    
+      <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+      </form>
+  </section>
+
+      </main>
+
+      <footer>
+          <p>&copy; 2026 Gemechis. All rights reserved.</p>
+      </footer>
+  </body>
+  </html>
+
